@@ -1,0 +1,34 @@
+git config –global user.email ewo185610063@gmail.com
+
+git config –global user.name “ewosusanto”
+
+git config –global –list
+
+git init
+
+buat file gitignore : agar tidak mengupload file node_modules karena terlalu besar.
+
+buat file .gitignore 
+isi file : node_modules/
+
+git add .
+
+git commit -m 'pesan upload'
+
+git branch -M main
+
+git remote origin https://
+git remote add origin https://github.com/ewosusanto/portofolio.git
+
+git push -u origin main
+
+menjalankan github pages 
+- pilih pages- pindahkan branch ke main
+
+perbarui github :
+- git add .
+- git commit -m 'pesan update'
+- git push -u origin main
+
+menghapus remote git
+hapus folder .git

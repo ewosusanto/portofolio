@@ -1,0 +1,22 @@
+npm init -y
+
+npm install -D tailwindcss
+
+npx tailwindcss init
+
+membuka file tailwind.config.js kemudian pada bagian konten lacak file 'index.html'
+
+buat folder src
+
+buat file input.css pada folder src
+
+buka terminal dan jalankan perintah kompilasi
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+tahan tombol alt kemudian klik semua code yang sama untuk mengedit
+
+install prettier khusus tailwindcss :
+npm install -D prettier prettier-plugin-tailwindcss
+
+minify css agar ukurannya menjadi lebih kecil
+npx tailwindcss -i ./src/input.css -o ./dist/css/minify.css --minify
